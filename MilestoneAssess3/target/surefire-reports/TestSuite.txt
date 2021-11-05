@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 148.659 s <<< FAILURE! - in TestSuite
+ApointTest.Appointment.AppointSetup  Time elapsed: 46.26 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <td data-date="..." class="ripple-element ripple-327234634 ripple-running-468058989 emsb-service-date-available" data-servicedateid="219082-2021-10-30" title="Available 1" disabled="disabled" data-toggle="tooltip">30</td> is not clickable at point (807, 506). Other element would receive the click: <div class="emsb-calender-loading-gif" style="display: flex;">...</div>
+  (Session info: chrome=95.0.4638.54)
+Build info: version: '4.0.0-rc-3', revision: '5fe1af712f'
+System info: host: 'MT-PG02HEP4', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1f4132d27ec96f3c42677a744ff0102, clickElement {id=cf1d1ada-e5dd-4081-8e9a-98557361ed9e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\SHUBHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62592/devtoo..., se:cdpVersion: 95.0.4638.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c1f4132d27ec96f3c42677a744ff0102)] -> xpath: //td[@data-date='30']]
+Session ID: c1f4132d27ec96f3c42677a744ff0102
+	at ApointTest.Appointment.AppointSetup(Appointment.java:37)
+
+ContactTest.Contacted.closed  Time elapsed: 40.796 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.0.0-rc-3', revision: '5fe1af712f'
+System info: host: 'MT-PG02HEP4', ip: '192.168.1.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e7ec2c646c58a7b56c0e30194f8ad220, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\SHUBHA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50469/devtoo..., se:cdpVersion: 95.0.4638.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e7ec2c646c58a7b56c0e30194f8ad220
+	at ContactTest.Contacted.closed(Contacted.java:45)
+

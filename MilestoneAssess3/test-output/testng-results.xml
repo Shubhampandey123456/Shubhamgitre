@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-29T12:46:22 IST" name="Suite" finished-at="2021-10-29T12:47:59 IST" duration-ms="96799">
+    <groups>
+    </groups>
+    <test started-at="2021-10-29T12:46:22 IST" name="Test" finished-at="2021-10-29T12:47:59 IST" duration-ms="96799">
+      <class name="ContactTest.Contacted">
+        <test-method signature="ContactSetup()[pri:0, instance:ContactTest.Contacted@9fbd77b7]" started-at="2021-10-29T12:47:26 IST" name="ContactSetup" finished-at="2021-10-29T12:47:58 IST" duration-ms="31669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactSetup -->
+      </class> <!-- ContactTest.Contacted -->
+      <class name="ApointTest.Appointment">
+        <test-method signature="AppointSetup()[pri:0, instance:ApointTest.Appointment@45dd93e3]" started-at="2021-10-29T12:46:50 IST" name="AppointSetup" finished-at="2021-10-29T12:47:26 IST" duration-ms="36309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppointSetup -->
+      </class> <!-- ApointTest.Appointment -->
+      <class name="BaseTesting.BaseTest">
+        <test-method signature="TestSetup()[pri:0, instance:BaseTesting.BaseTest@83203e1f]" started-at="2021-10-29T12:46:22 IST" name="TestSetup" finished-at="2021-10-29T12:46:49 IST" duration-ms="27403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+      </class> <!-- BaseTesting.BaseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

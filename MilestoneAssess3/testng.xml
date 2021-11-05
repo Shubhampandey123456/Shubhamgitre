@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="BaseTesting.Listeners" />
+	</listeners>
+	<test thread-count="10" name="Test">
+		<classes>
+			<class name="BaseTesting.BaseTest" />
+			<class name="ApointTest.Appointment" />
+			<class name="ContactTest.Contacted" />
+			<class name="Milestone.MilestoneAssess3.AppTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
